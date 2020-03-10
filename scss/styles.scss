@@ -45,8 +45,9 @@ $background-alt: #f2f2f5;
 $border: #dcd9d9;
 
 // Define text colors
-$heading:  #002f6c;    
-$text:     #585e63;
+$heading:     #002f6c;    
+$text:        #585e63;
+$certHeading: #0049af;
 
 /*
     ---------------------
@@ -789,11 +790,11 @@ footer {
 
 /*
     ---------------------------------------
-    ----- 11. Optional Section Styles -----
+    ----- 11. Certifications Section Styles -----
     ---------------------------------------
 */
 
-.optional-section {
+.certifications-section  {
     padding: 50px 15px;
     text-align: center;
     border-top: 1px solid $border;
@@ -803,7 +804,7 @@ footer {
     }
 }
 
-.optional-section-block {
+.certifications-section-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
@@ -818,7 +819,7 @@ footer {
     }
 
     h4 {
-        color: $text;
+        color: $certHeading;
         clear: both;
         font-weight: 500;
         margin: 0 0 15px 0;
